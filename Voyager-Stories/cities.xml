@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities>
+	<city>
+		<name>New York</name>
+		<hotels id="New York">
+			<hotel>
+				<hotelName>Holiday Inn</hotelName>
+				<hotelPrice>$100</hotelPrice>
+				<hotelAddress>709 Honey Creek Dr. New York, NY 10028</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>Marroit Inn</hotelName>
+				<hotelPrice>$140</hotelPrice>
+				<hotelAddress>3 South Sherman Street. Astoria, NY 11106</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>Grand Hotel</hotelName>
+				<hotelPrice>$150</hotelPrice>
+				<hotelAddress>73 Pacific St. Forest Hills, NY 11375</hotelAddress>
+			</hotel>
+		</hotels>
+	</city>
+	<city>
+		<name>Denver</name>
+		<hotels id="Denver">
+			<hotel>
+				<hotelName>Holiday Inn</hotelName>
+				<hotelPrice>$100</hotelPrice>
+				<hotelAddress>2475 West 26th Avenue Denver, Colorado  80211</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>Marroit Inn</hotelName>
+				<hotelPrice>$140</hotelPrice>
+				<hotelAddress>2475 West 27th AvenueDenver, Colorado  80211</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>motel Inn</hotelName>
+				<hotelPrice>$140</hotelPrice>
+				<hotelAddress>2475 West 28th AvenueDenver, Colorado  80211</hotelAddress>
+			</hotel>
+		</hotels>
+	</city>
+	<city>
+		<name>Las Vegas</name>
+		<hotels id="Las Vegas">
+			<hotel>
+				<hotelName>Quality Inn</hotelName>
+				<hotelPrice>$100</hotelPrice>
+				<hotelAddress>401 S. 4th St.Historic Fifth Street School, Las Vegas, NV 89101</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>Marroit Inn</hotelName>
+				<hotelPrice>$140</hotelPrice>
+				<hotelAddress>1750 Wheeler Peak Dr. Las Vegas, NV 89106</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>Local Hotel</hotelName>
+				<hotelPrice>$150</hotelPrice>
+				<hotelAddress>4292 S. Maryland Pkwy. Las Vegas, NV 89119</hotelAddress>
+			</hotel>
+		</hotels>
+	</city>
+	<city>
+		<name>California</name>
+		<hotels id="California">
+			<hotel>
+				<hotelName>Quality Inn</hotelName>
+				<hotelPrice>$100</hotelPrice>
+				<hotelAddress>P.O. Box 942873 Sacramento, CA 94273-0001</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>Marroit Inn</hotelName>
+				<hotelPrice>$140</hotelPrice>
+				<hotelAddress>P.O. Box 3700 Eureka, CA 95502</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>Local Hotel</hotelName>
+				<hotelPrice>$150</hotelPrice>
+				<hotelAddress>1657 Riverside Drive Redding, CA 96001</hotelAddress>
+			</hotel>
+		</hotels>
+	</city>
+	<city>
+		<name>Florida</name>
+		<hotels id="Florida">
+			<hotel>
+				<hotelName>Quality Inn</hotelName>
+				<hotelPrice>$100</hotelPrice>
+				<hotelAddress>62 Mayflower St. Sanford, FL 32771</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>Marroit Inn</hotelName>
+				<hotelPrice>$140</hotelPrice>
+				<hotelAddress>995 School Street. North Miami Beach, FL 33160</hotelAddress>
+			</hotel>
+			<hotel>
+				<hotelName>Local Hotel</hotelName>
+				<hotelPrice>$150</hotelPrice>
+				<hotelAddress>9488 E. Walnutwood St. Boca Raton, FL 33433</hotelAddress>
+			</hotel>
+		</hotels>
+	</city>
+</cities>

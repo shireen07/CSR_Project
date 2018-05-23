@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<destinations>
+<vacationPlanParis>
+		<place>Love in Paris</place>
+		<cost>$899</cost>
+		<duration>4 Night/ 3 Days</duration>
+		<discription>It’s time for a getaway to Paris! Explore the City of Lights with this 
+					 package,which includes airfare, 4 nights in your choice of hotel, and breakfast.
+					 Explore Paris on your own, or add on a few of our optional tours. Choose from a 
+					 hop-on hop-off bus tour with a river cruise,a tour of the royal apartments of 
+					 Versailles, or a visit to Monet’s garden in the village of Giverny.Whether you’re 
+					 new to Paris or returning to visit old favorites, this package gives you the perfect Paris getaway.</discription>
+		<Image><input type="button" value="book" /></Image>			 
+		
+</vacationPlanParis>	
+
+	<vacationPlanLondon>
+		<place>Delight stay in London</place>
+		<cost>$799</cost>
+		<duration>3 Days/3 Nights</duration>
+		<discription>Enjoy excellent hotels and fantastic sightseeing in London! 
+					 This vacation package includes round-trip air, your choice 
+					 of centrally-located London hotels and daily breakfast. 
+					 Spend a day hopping around London’s world-renowned museums, 
+					 watch the Changing of the Guard and take a peek at royal palaces, 
+					 get a birds-eye view from the London Eye, even explore beyond 
+					 the capital with a trip to Stonehenge and the city of Bath </discription>
+				 
+					 
+	</vacationPlanLondon>
+	
+	<vacationPlanNewyork>
+		<place>New York, The Empire State</place>
+		<cost>$799</cost>
+		<duration>3 Days/2 Nights</duration>
+		<discription>Abhideep</discription>
+	</vacationPlanNewyork>
+	<vacationPlanAmsterdam>
+		<place>Amsterdam, The Venice of the North</place>
+		<cost>$899</cost>
+		<duration>5 Days/4 Nights</duration>
+		<discription>Amsterdam is one of the greatest small cities in the world. 
+					 From Amsterdam canals to world-famous Amsterdam museums and 
+					 historical Amsterdam sights, it is one of the most romantic 
+					 and beautiful cities in Europe. Canal cruises are a popular 
+					 way to see the city from the perspective of its canals</discription>
+	</vacationPlanAmsterdam>
+	<vacationPlanAustralia>
+		<place>Australia, The LAnd down Under</place>
+		<cost>$1299</cost>
+		<duration>7 Days/8 Nights</duration>
+		<discription>People from all over the world choose Australia vacations to capture 
+					 the Aussie essence of our vast continent – a land of drastic contrasts 
+					 and wonders. Travel Down Under and experience our unique Australian 
+					 wildlife, the rugged Outback terrain, or our magnificent beaches and 
+					 dive sites along the world heritage Great Barrier Reef. 
+					 And those are just the obvious choices when you think of Australia. 
+					 During your Australia vacation, you can tour the Sydney Opera House, 
+					 maybe cuddle a Koala or snorkel the Great Barrier Reef.</discription>
+	</vacationPlanAustralia>
+</destinations>	

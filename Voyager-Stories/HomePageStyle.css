@@ -1,0 +1,97 @@
+/*Home Page StyleSheet*/
+
+body{background-color:black;}
+
+#topImg{opacity:0.9;
+		margin-top:0px;}
+		
+/*** News Feed Section ***/	  
+#h3Label{	font-weight:bolder;
+	        font-family:Sue Ellen Francisco;
+			color:#2eb8b8;
+			font-size:46px;
+			padding:0px;
+			margin-top:0px;
+			margin-right:0px;
+			margin-left:0px;
+			margin-bottom:0px;
+		 }
+
+#NewsFeedTag{
+	        font-weight:bolder;
+	        font-family:DazzlingDivas;
+			color:#C71585;
+			font-size:34px;
+			padding:0px;
+			margin-top:0px;
+			margin-right:0px;
+			margin-left:0px;
+			margin-bottom:0px;
+         }
+
+#NewsFeed_1{
+	width:1400px;
+	height:350px;
+	border-radius:22px;
+	border-style:outset;
+	border-width:10px;
+	border-color:#37FDFC;
+	
+   }	
+
+#NewsFeed_2{
+	width:1400px;
+	height:350px;
+	border-radius:22px;
+	border-style:outset;
+	border-width:10px;
+	border-color:#FFCC11;
+	
+   }	 
+		
+#NewsFeed_3{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-right:70px;
+	border-radius:300px;
+   }		
+
+#DateText1{
+	 color:white;
+	 font-family:DazzlingDivas; 
+	 font-size:30px; 
+	 font-weight:bolder; 
+	 color:#C71585;
+	 margin-left:10px;
+	 margin-bottom:0px;
+	 margin-top:0px;
+	 margin-right:0px;
+   }
+
+#DateText2{
+	 font-family:DazzlingDivas; 
+	 font-size:25px; 
+	 font-weight:bolder; 
+	 color:#6495ED;
+	 margin-left:10px;
+	 margin-bottom:0px;
+	 margin-top:0px;
+	 margin-right:0px;
+    } 
+	
+#menubar {background-color:black;}
+
+nav ul li{display:inline-block;
+			width:200px;
+			color:white;
+			font-weight:bold;
+			font-size:30px;
+			margin:0px;
+			font-family:Sue Ellen Francisco;
+			}
+			
+nav ul li a{color:white;
+            text-decoration:none;  /*to remove unerline from href attribute*/
+            }
+nav ul li a:hover {color:#2eb8b8;}

@@ -1,0 +1,175 @@
+<html>
+<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="vacationPlan.js"></script>
+		<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+		<link rel ="stylesheet" href="vacationPlanStyle.css" text="text/css"/>
+		<style>
+#bookbutton{border-radius:15px;
+              background-color:#ff9999;
+			  color:black; 
+			  height:35px; 
+			  width:100px;
+			  margin-top:25px;
+			  
+			  }
+
+			
+#VacHeading{font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  }
+.FontColor{
+			color:#FFFFFF;
+		  }
+.middleDiv{
+			box-shadow:0 0 0.8823em 0 rgba(0,0,0,.5);
+			background-color:rgba(0,0,0,.75);
+			overflow:hidden;
+			border-width:thick;
+		  }
+.InnerFieldSet{
+			margin-left:200px;
+			margin-right:200px;
+		  }
+td {
+	color: FFFFFF;
+   }
+#div1{
+			align:right;
+	  }
+		  
+.div-menu a{
+		     
+	  transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+		  }
+		  
+.div-menu ul{
+	text-align: center;
+		  }
+		  
+		    .div-menu ul li
+		  {
+		 display: inline-block;
+		 margin-left:10%;
+		  }
+
+
+		</style>
+    </head>
+    <body style="background-image: url('travel-beach.jpg');    background-size: cover;">
+	<section>
+      
+		<div  class="FontColor middleDiv">   
+		
+		<!--HomeLanding Logo-->
+		<a href="Home_LandingPage.html">
+			      <img src="LandingPageLogo.png" href="Home_LandingPage.html"
+			      height="50px" width="90px" style="float:left; margin-left:0; margin-top:40px;"/>
+		</a>
+		
+     <div align="center" style="margin-top:100px">
+	 <fieldset class="InnerFieldSet">
+	 
+	 
+		<div id="div1">
+		<table>
+			<tr>
+				<td id="VacHeading">Vacation Plan for Paris.</td></tr>	
+				<tr><td><input type="radio" id="parisRadio" name="vacationRadio" />Click for Description:</td>
+			</tr>
+			<tr>
+				<td>
+					<a><img src="paris.jpg" width="300px" height="200px" ></a>
+				</td>
+				<td><p class="plan-description" id="parisResult"></p></td>
+				<td><a href="VacationPersonalDetails.html">
+				   <input type="button" value="Book" id="bookbutton"/>
+				</a></td>
+			</tr>
+			
+			<tr><td id="VacHeading">Vacation Plan for London</td></tr>
+				<tr><td>	
+					<input type="radio" id="londonRadio" name="vacationRadio" />Click for Description.	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a><img src="london.jpg" width="300px" height="200px" ></a>
+				</td>
+				<td><p class="plan-description" id="londonResult"></p></td>
+				<td><a href="VacationPersonalDetails.html">
+				   <input type="button" value="Book" id="bookbutton"/>
+				</a></td>
+			</tr>
+			
+			<tr><td id="VacHeading">Vacation Plan for NewYork.</td></tr>
+				<tr><td>	
+					<input type="radio" id="newyorkRadio" name="vacationRadio" />Click for Description.	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a><img src="newyork.jpg" width="300px" height="200px" ></a>
+				</td>
+				<td><p class="plan-description" id="newyorkResult"></p></td>
+				<td><a href="VacationPersonalDetails.html">
+				   <input type="button" value="Book" id="bookbutton"/>
+				</a></td>
+			</tr>
+			
+			<tr><td id="VacHeading">Vacation Plan for Amsterdam.</td></tr>
+				<tr><td>	
+					<input type="radio" id="amsterdamRadio" name="vacationRadio" />Click for Description.	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a><img src="amsterdam.jpg" width="300px" height="200px" ></a>
+				</td>
+				<td><p class="plan-description" id="amsterdamResult"></p></td>
+				<td><a href="VacationPersonalDetails.html">
+				   <input type="button" value="Book" id="bookbutton"/>
+				</a></td>
+			</tr>
+			
+			<tr><td id="VacHeading">Vacation Plan for Australia.</td></tr>
+				<tr><td>	
+					<input type="radio" id="australiaRadio" name="vacationRadio" />Click for Description.	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a><img src="australia.jpg" width="300px" height="200px" ></a>
+				</td>
+				<td><p class="plan-description" id="australiaResult"></p></td>
+				<td><a href="VacationPersonalDetails.html">
+				   <input type="button" value="Book" id="bookbutton"/>
+				</a></td>
+			</tr>
+			
+		</table>	
+		</div></br>
+	 
+	 </fieldset>
+	</div>
+	</div>
+
+</section>
+	
+		
+	
+	</body>
+	</html>
+	
+	

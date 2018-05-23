@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>VoyagerStories.com</title>
+	  <meta charset= "utf-8"/>
+	  <link rel ="stylesheet" href="tips&TricksPage.css" text="text/css"/>
+	  <!--BootStrap Start-->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  	  
+      <style type="text/css">
+         .bs-example{
+    	     margin: 20px;
+			 position:absolute;
+             }
+         .modal-content iframe{
+             display: block;
+			 margin-top:20px;
+             }
+      </style>
+
+      <script type="text/javascript">
+	  /*Link 1*/
+         $(document).ready(function(){
+         /* Get iframe src attribute value i.e. YouTube video url
+         and store it in a variable */
+         var url = $("#Video1").attr('src');
+    
+         /* Assign empty url value to the iframe src attribute when
+         modal hide, which stop the video playing */
+         $("#myModal").on('hide.bs.modal', function(){
+         $("#Video1").attr('src', '');
+        });
+    
+        /* Assign the initially stored url back to the iframe src
+        attribute when modal is displayed again */
+        $("#myModal").on('show.bs.modal', function(){
+        $("#Video1").attr('src', url);
+		
+       });
+      });
+	  
+	  	  /*Link 2*/
+         $(document).ready(function(){
+         var url2 = $("#Video2").attr('src');
+    
+         $("#myModal2").on('hide.bs.modal', function(){
+         $("#Video2").attr('src', '');
+        });
+    
+        $("#myModal2").on('show.bs.modal', function(){
+        $("#Video2").attr('src', url2);
+       });
+      });
+	  
+	  /*Link 3*/
+         $(document).ready(function(){
+         var url3 = $("#Video3").attr('src');
+    
+         $("#myModal3").on('hide.bs.modal', function(){
+         $("#Video3").attr('src', '');
+        });
+    
+        $("#myModal3").on('show.bs.modal', function(){
+        $("#Video3").attr('src', url3);
+       });
+      });
+	  
+	  	/*Link 4*/
+         $(document).ready(function(){
+         var url4 = $("#Video4").attr('src');
+    
+         $("#myModal4").on('hide.bs.modal', function(){
+         $("#Video4").attr('src', '');
+        });
+    
+        $("#myModal4").on('show.bs.modal', function(){
+        $("#Video4").attr('src', url4);
+       });
+      });
+	  
+	  	/*Link 5*/
+         $(document).ready(function(){
+         var url5 = $("#Video5").attr('src');
+    
+         $("#myModal5").on('hide.bs.modal', function(){
+         $("#Video5").attr('src', '');
+        });
+    
+        $("#myModal5").on('show.bs.modal', function(){
+        $("#Video5").attr('src', url5);
+       });
+      });
+	  	  /*Smooth Scrolling when clicked on Video Link*/
+	  $(document).on('click', 'a[href^="#videoDiv"]', function (event) {
+        event.preventDefault();
+
+       $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top}, 1500);
+      });
+	  
+      	  /*Smooth Scrolling when clicked on Guide Link*/
+	  $(document).on('click', 'a[href^="#topContent"]', function (event) {
+        event.preventDefault();
+
+       $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top}, 1500);
+      });
+	  
+      </script>
+	  <!--BootStrap End-->
+	  
+   </head>
+   <body>
+      <div id="menubar">
+	     <nav>
+	        <ul>
+			   <a href="Home_LandingPage.html">
+			      <img src="LandingPageLogo.png" href="Home_LandingPage.html"
+			      height="50px" width="90px" style="float:left; margin-left:0; margin-top:40px;"/>
+			   </a>
+		       <li><a href="HomePage.html" >TRAVEL NEWS</a></li>
+			   <li><a href="games.html" >GAME</a></li> <!--Game link paste here-->
+			   <img src="Logo_Black.png" height="90px" width="170px" />
+			   <li><a href="#videoDiv" >VIDEOS</a></li>
+			   <li><a href="#topContent" >GUIDES</a></li>
+		       </ul>
+	     </nav>
+	  </div>
+	  
+	  <!--Tips&Tricks Page TOP Image-->
+      <div id="container">
+	     <img src="pic01.png" width="100%" height="500px" style="position:relative;"/>
+		 
+		 
+		 <!--First Background Image and Aeroplane Banner-->
+	     <img id="opaqueImages" src="06.jpg" width="100%"/>
+		 <div id="topContent">
+		    <img src="aeroBanner_01.png" height="50%" width="70%"/>
+		 </div>
+		 
+		 
+		 <!--Books and Guides-->
+		 <div id="topContent2">
+		    <a href="https://www.amazon.com/Nomadic-Matts-Guide-York-City-ebook/dp/B01LXNSX15/ref=sr_1_1?s=books&ie=UTF8&qid=1510849377&sr=1-1&keywords=Nomadic+Matt%E2%80%99s+Guide+to+New+York+City" style="color:transparent;">
+			   <img id="bookhover" src="NewYorkGuide.jpg" height="15%" width="15%"/>
+			</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;
+			
+			<a href="https://www.amazon.com/Nomadic-Matts-Guide-Amsterdam-2016-ebook/dp/B01M1K86IH/ref=sr_1_sc_1?s=books&ie=UTF8&qid=1510849445&sr=1-1-spell&keywords=Nomadic+Matt%E2%80%99s+Guide+toamsterdam" style="color:transparent;">
+			   <img id="bookhover" src="AmsterdamGuide.jpg" height="15%" width="15%"/>
+			</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;
+			
+			<a href="https://www.amazon.com/Fodors-Colorado-Travel-Guide-Guides/dp/1101879653/ref=sr_1_1?s=books&ie=UTF8&qid=1510849556&sr=1-1&keywords=things+to+do+in+denver+colorado" style="color:transparent;">
+			   <img id="bookhover" src="DenverGuide.jpg" height="15%" width="15%"/>
+			</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;
+			
+			<a href="https://www.amazon.com/Nomadic-Matts-Guide-Paris-2016-ebook/dp/B01M1JOCH7/ref=sr_1_1?s=books&ie=UTF8&qid=1510849501&sr=1-1&keywords=Nomadic+Matt%E2%80%99s+Guide+to+paris" style="color:transparent;">
+			   <img id="bookhover" src="ParisGuide.jpg" height="15%" width="15%"/>
+			</a>
+			
+			<br/>
+			<br/>
+			<a href="https://www.amazon.com/gp/product/0399173285/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=nommatstrasit-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0399173285&linkId=7506784ec5faf11cffb809460fe2f533" 
+			   style="color:transparent;">
+			   <img  id="bookhover"src="WorldGuide.png" height="15%" width="15%"/>
+			</a>
+		 </div>
+		 
+
+		 <!--Second background Image-->
+	     <img id="opaqueImages" src="paisajes1.jpg" width="100%"/> 
+		 
+		 <!--Travel Videos Div-->
+	   <div id="videoDiv">
+		    <img src="aeroBanner_03.png" height="50%" width="70%"/>
+		 </div>
+	  </div>
+	  
+	  <!--Bootstrap Body start-->
+	     <!--Link 1: New York-->
+		 <div class="bs-example" style="margin-left:140px;">
+            <!-- Button HTML (to Trigger Modal) Bootstrap used for buttons--> 
+            <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal" style="margin-top:1100px;">
+			&nbsp;&nbsp;New York Diaries&nbsp;&nbsp;</a>
+			
+            <!-- Modal HTML -->
+            <div id="myModal" class="modal fade">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Voyager Stories Video</h4>
+                     </div>
+                     <div class="modal-body">
+                       <iframe id="Video1" width="560" height="315" src="https://www.youtube.com/embed/MtCMtC50gwY" 
+					           frameborder="0" allowfullscreen></iframe>
+                     </div>
+                 </div>
+              </div>
+            </div>
+			
+			<!--Link 2: Amsterdam-->
+			<!-- Button HTML (to Trigger Modal) -->
+			<a href="#myModal2" class="btn btn-lg btn-primary" data-toggle="modal" 
+			   style="margin-left:60px; margin-top:1100px;">&nbsp;Amsterdam Diaries&nbsp;</a>
+    
+            <!-- Modal HTML -->
+            <div id="myModal2" class="modal fade">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Voyager Stories Video</h4>
+                     </div>
+					 
+					 <div class="modal-body">
+                       <iframe id="Video2" width="560" height="315" src="https://www.youtube.com/embed/ey_L_VzPwEI" 
+					           frameborder="0" allowfullscreen></iframe>
+                     </div>
+                 </div>
+              </div>
+            </div>
+			
+			
+			<!--Link 3: Paris-->
+			<!-- Button HTML (to Trigger Modal) -->
+			<a href="#myModal3" class="btn btn-lg btn-primary" data-toggle="modal" 
+			   style="margin-left:60px; margin-top:1100px;">&nbsp;&nbsp;&nbsp;Paris Diaries&nbsp;&nbsp;&nbsp;</a>
+    
+            <!-- Modal HTML -->
+            <div id="myModal3" class="modal fade">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Voyager Stories Video</h4>
+                     </div>
+					 
+					 <div class="modal-body">
+                       <iframe id="Video3" width="560" height="315" src="https://www.youtube.com/embed/AQ6GmpMu5L8" 
+					           frameborder="0" allowfullscreen></iframe>
+                     </div>
+                 </div>
+              </div>
+            </div>
+			
+			
+			<!--Link 4: London-->
+			<!-- Button HTML (to Trigger Modal) -->
+			<a href="#myModal4" class="btn btn-lg btn-primary" data-toggle="modal" 
+			   style="margin-left:60px; margin-top:1100px;">&nbsp;&nbsp;&nbsp;London Diaries&nbsp;&nbsp;&nbsp;</a>
+    
+            <!-- Modal HTML -->
+            <div id="myModal4" class="modal fade">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Voyager Stories Video</h4>
+                     </div>
+					 
+					 <div class="modal-body">
+                       <iframe id="Video4" width="560" height="315" src="https://www.youtube.com/embed/45ETZ1xvHS0" 
+					           frameborder="0" allowfullscreen></iframe>
+                     </div>
+                 </div>
+              </div>
+            </div>
+			
+			
+			<!--Link 5: Australia-->
+			<!-- Button HTML (to Trigger Modal) -->
+			<a href="#myModal5" class="btn btn-lg btn-primary" data-toggle="modal" 
+			   style="margin-left:60px; margin-top:1100px;">&nbsp;&nbsp;Australian Diaries&nbsp;&nbsp;</a>
+    
+            <!-- Modal HTML -->
+            <div id="myModal5" class="modal fade">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Voyager Stories Video</h4>
+                     </div>
+					 
+					 <div class="modal-body">
+                       <iframe id="Video5" width="560" height="315" src="https://www.youtube.com/embed/Sb-WI_dWFVw" 
+					           frameborder="0" allowfullscreen></iframe>
+                     </div>
+                 </div>
+              </div>
+            </div>
+			
+			
+	   <!--FootNote-->
+	   <br/><br/><br/><br/><br/><br/><br/></br/>
+	   <hr/>
+	   <p style="font-size:25px; font-family:Sue Ellen Francisco;text-align:center; font-weight:bolder;">
+	   ClientSide Resources @Fall2017</p>
+	   
+         </div> 
+	  <!--Bootstrap body end-->
+   </body>
+</html>
+
+
+
+
+
+
+
+
+

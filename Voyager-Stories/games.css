@@ -1,0 +1,61 @@
+
+body{margin:0;}
+
+#main{position:relative;
+}
+
+#home{background-color:black;
+                height:600px;
+				width:1000px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:7%;
+				left:18%;
+				background-color: rgba(0,0,0,0.42);
+				
+				}
+#game{
+	height:400px;
+				width:800px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:20%;
+				left:30%;
+	
+}				
+				
+#labelStyle{
+            color:white;
+			font-family:DazzlingDivas;
+			font-weight:bolder;
+			transform: translate(-50%, 50%);
+			z-index:10;
+			font-size:35px;
+			}
+
+
+#jackpotPara{margin:0;
+           font-family:DazzlingDivas;
+		   font-size:20px;
+		   font-weight:bolder;
+		   color:white;
+		   margin-top:50px;}
+		   
+#slot1TextBox , #slot2TextBox, #slot3TextBox {border-radius:5px;
+       width:170px;
+	   height:27px;
+	   font-family:arial;
+	   font-size:16px;
+	   font-weight:normal;
+	   }		   
+
+#playButton, #cheatButton , #oddsButton , #showButton{border-radius:15px;
+              color:black; 
+			  height:35px; 
+			  width:130px;
+			  margin-top:25px;
+			  }
+		   
+*/

@@ -1,0 +1,86 @@
+
+table,th,td {
+  border : 0px ;
+  border-collapse: collapse;
+  padding:5px;
+}
+th,td {
+  padding: 4px;
+}
+
+#data{font-family:arial;
+      font-size:15px;
+	  color:black;
+	  font-weight:normal;}
+
+#cardNo{font-family:arial;
+      font-size:15px;
+	  color:black;
+	  font-weight:normal;}
+
+#cardName{font-family:arial;
+      font-size:15px;
+	  color:black;
+	  font-weight:normal;}
+
+#expDt{font-family:arial;
+      font-size:15px;
+	  color:black;
+	  font-weight:normal;}
+
+#cvv{font-family:arial;
+      font-size:15px;
+	  color:black;
+	  font-weight:normal;}
+
+
+.section-wrap{
+	font-family:DazzlingDivas;
+	color:#C71585;
+	font-size:30px;
+	font-weight:bolder;
+	max-width:500px;
+	margin: 30px auto;
+	display:block;
+	padding: 0 10px;
+	position:relative;
+}
+.actionbtns{
+	text-align: center;
+	margin:18px 0 6px;
+	clear: both;
+	
+}
+.section{
+	box-sizing: border-bottom;
+	border: 2px solid #e7e7e7;
+	padding:2px;
+	position:relative;
+	margin:0;
+	
+}
+.error-msg{
+	text-align: center;
+	color: #cc0000;
+	font-weight:bold;
+}
+.errorMsg{
+	font-family:arial;
+	text-align:left-side;
+	color: #cc0000;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.error{
+	border:2px solid #EF0000;
+	padding: 2px;
+}
+.txt-center{
+	padding:5px;
+	text-align: center;
+	font-family:arial;
+	font-size:40px;
+	font-weight:bolder;
+	
+}

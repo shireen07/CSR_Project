@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<flights>
+		<flight>
+			<flightFrom>Kansas</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Kansas</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>2</adult>
+			<departure>2:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>4:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Kansas</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>3</adult>
+			<departure>3:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>5:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>2</adult>
+			<departure>2:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>3:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>3</adult>
+			<departure>8:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>9:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>2</adult>
+			<departure>5:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>8:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>5:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>2</adult>
+		</flight>
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>3</adult>
+			<departure>5:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>10:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>3:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>kansas</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>2</adult>
+			<departure>3:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>5:00 PM</arrival>
+			
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>4:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>1</adult>
+			<departure>8:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>10:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>5:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>4:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>1</adult>
+			<departure>10:00 AM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>3</adult>
+			<departure>5:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>8:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>NewYork</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>1</adult>
+			<departure>3:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>5:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>3</adult>
+			<departure>2:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>4:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>1</adult>
+			<departure>4:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>6:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>2</adult>
+			<departure>4:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>6:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>2</adult>
+			<departure>4:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>6:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>3</adult>
+			<departure>5:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>7:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Denver</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>1</adult>
+			<departure>3:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>5:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>4:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Las Vegas</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>4:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>California</flightFrom>
+			<flightTo>Florida</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>1</adult>
+			<departure>1:00 AM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>3:00 AM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>Kansas</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>NewYork</flightTo>
+			<adult>3</adult>
+			<departure>2:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>5:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>2</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>Denver</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>Spirit Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>1</adult>
+			<departure>4:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>6:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>2</adult>
+			<departure>4:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>6:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>Las Vegas</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>1</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>2</adult>
+			<departure>5:00 PM</departure>
+			<flightName>SouthWest Airlines</flightName>
+			<arrival>7:00 PM</arrival>
+		</flight>
+		<flight>
+			<flightFrom>Florida</flightFrom>
+			<flightTo>California</flightTo>
+			<adult>3</adult>
+			<departure>1:00 PM</departure>
+			<flightName>American Airlines</flightName>
+			<arrival>2:00 PM</arrival>
+		</flight>
+		
+</flights>

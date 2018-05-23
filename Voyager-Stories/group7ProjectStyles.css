@@ -1,0 +1,122 @@
+/*CSS For Landing Page*/
+body{margin: 0px;}
+
+/*background Image and animation*/
+#hero {background-image:url('img02.jpg');
+       background-size: cover;
+	   background-position: center center;
+	   position:relative;
+	   top:0; 
+	   bottom:0;
+	   height:100vh;
+	   z-index: -10;
+	   }
+
+#hero-overlay{position:absolute;
+              top:0;
+			  bottom:0;
+			  height:100%;
+			  width:100%;
+			  z-index:-5;
+			  background-color: rgba(0,0,0,0.42);
+			  }
+			  
+#text-wrapper{font-weight:bold;
+              font-family:DazzlingDivas;
+			  color: white;
+			  font-size: 85px;
+			  transform: translate(-50%, 50%);
+			  position:absolute;
+			  top:20%;
+			  left:50%;
+			  
+			  }
+
+/*------------Navigation Tabs (a element)---------------*/
+	  
+#main{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white; /*was red first*/
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:110px;
+	  }
+#main:hover{font-size:40px;}
+
+#main2{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:360px;
+	  }
+
+#main2:hover{font-size:40px;}
+	  
+#main3{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:550px;
+	  }
+	  
+#main3:hover{font-size:40px;}
+	  
+#main4{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:710px;
+	  }
+	  
+#main4:hover{font-size:40px;}
+	  
+#main5{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:970px;
+	  }
+
+#main5:hover{font-size:40px;}
+	  
+#main6{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:1210px;
+	  }
+	  
+#main6:hover{font-size:40px;}
+			
+
+
+

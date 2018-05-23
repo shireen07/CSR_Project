@@ -1,0 +1,87 @@
+/*----------------Tips and Tricks Page---------------*/
+body{margin:0; padding:0px;}
+
+nav {text-align:center;
+     color: white;}
+
+#menubar {background-color:black;}
+		
+nav ul li{display:inline-block;
+			width:200px;
+			color:white;
+			font-weight:bold;
+			font-size:30px;
+			margin:3px;
+			margin-top:20px;
+			font-family:Sue Ellen Francisco;
+			}
+			
+nav ul li a{color:white;
+            text-decoration:none;  /*to remove unerline from href attribute*/
+            }
+nav ul li a:hover {color:#2eb8b8;}
+
+#container{position:relative;}
+
+
+#opaqueImages{display:block;   /*display and float used to remove gaps between images*/
+              float:left;
+			  margin:0;
+			  opacity:0.3; /*relative for div thats under, and absolute for div thats on the top*/
+			  }			  
+			  
+			  
+#topContent3{top:1380px; 
+            left:340px; 
+            position:absolute;}			  
+			  			  
+			  
+#videoDiv{top:1400px; 
+            left:340px; 
+            position:absolute;}		
+			
+		
+#topContent{top:520px; 
+            left:340px; 
+            position:absolute;}
+
+#topContent2{top:750px; 
+             left:200px; 
+			 position:absolute; 
+			 float:left;
+			 z-index:9999;
+			 }
+
+
+/*Book shakes when mouse hovers over it -- START*/
+#bookhover:hover {
+  border-radius:10px;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden; /*he backface-visibility property defines whether or not the back face of an element should be visible when facing the user.*/
+  perspective: 1000px; /*This property allows you to change the perspective on how 3D elements are viewed.*/
+}
+
+@keyframes shake {
+  10%, 90% { /* From 10% to 90% */
+    transform: translate3d(-1px, 0, 0); /* translate 3d (x axis, yaxis, z-axis)*/
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+  /*Book shakes when mouse hovers over it -- END*/			  
+			  
+			  
+			  
+			  
+			  

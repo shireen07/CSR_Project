@@ -1,0 +1,72 @@
+
+
+
+#main1{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white; /*was red first*/
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:140px;
+	  }
+#main1:hover{font-size:40px;}
+
+#main2{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:320px;
+	  }
+
+#main2:hover{font-size:40px;}
+	  
+#main3{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:500px;
+	  }
+	  
+#main3:hover{font-size:40px;}
+	  
+#main4{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:680px;
+	  }
+	  
+#main4:hover{font-size:40px;}
+	  
+#main5{z-index:10;
+      transform:translate(100%; 1200%);
+	  background-color:transparent;
+	  position:absolute;
+	  font-family:DazzlingDivas;
+	  color:white;
+	  font-weight:bold;
+      font-size:30px;
+	  top:600px;
+	  left:940px;
+	  }
+
+#main5:hover{font-size:40px;}
+	  

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+       <title>Insert title here</title>
+	  <link rel ="stylesheet" href="personalDetails.css" text="text/css"/>
+	  <script text="text/javascript" src="PersonalDetails.js"></script>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<body background="hotelImg.jpg">
+	<div class="section-wrap">
+		<div class="section"><br/>
+			<h1 align="center" style="font-family:Sue Ellen Francisco; font-size:50px; margin:0;
+			    font-weight:bolder;color:#2eb8b8;"> Your Details</h1>
+			<div class="errorMsg"> <span id="errorSpan"> </span></div>
+			<div> 
+				<table border="0">
+					<tr>
+						<td> Full Name: </td>
+						<td id="data"> <input id="name" name="name" type="text" length="30"  maxlength="30"/></td>
+					</tr>
+					<tr>
+						<td> Email: </td>
+						<td id="data"> <input id="email" name="email" type="text" length="30"  maxlength="30"/></td>
+					</tr>
+					<tr>
+						<td> Phone Number: </td>
+						<td id="data"> <input id="phone" name="phone" type="text" length="14" placeHolder="(888)-888-8888" maxlength="14"/></td>
+					</tr>
+					<tr>
+						<td> Address1: </td>
+						<td id="data"> <input id="add1" name="addr1" type="text" length="30"  maxlength="30"/></td>
+					</tr>
+					<tr>
+						<td> Address2: </td>
+						<td id="data"> <input id="add2" name="addr2" type="text" length="30"  maxlength="30"/></td>
+					</tr>
+					<tr>
+						<td> City: </td>
+						<td id="data"> <input id="city" name="city" type="text" length="30"  maxlength="30"/></td>
+					</tr>
+					<tr>
+						<td> State: </td>
+						<td id="data"> <input id="state" name="state" type="text" length="2"  maxlength="2"/></td>
+					</tr>
+					<tr>
+						<td> Zip Code: </td>
+						<td id="data"> <input id="zip" name="zip" type="text" length="6"  maxlength="5"/></td>
+					</tr>
+					<tr>
+						<td align:"top"> Card Details: </td>
+						<td> <input id="cardNo" name="cardNo" type="text" length="16"  placeHolder="CARD NUMBER" maxlength="16"/><br>
+						<input id="cardName" name="cardName" type="text" length="16" placeHolder="NAME ON CARD"  maxlength="16"/><br>
+						<input id="expDt" name="expDt" type="text" length="5" placeHolder="MM/YY" maxlength="5"/><br>
+						<input id="cvv" name="cvv" type="text" length="3" placeHolder="CVV"  maxlength="3"/><br></td>
+					</tr>
+					
+					<tr class="txt-center">
+						<td colspan="3"><button class="btn btn-success" type="button" onclick="submit()">
+						Submit Details</button></td>
+					</tr>
+				</table>
+		</div>
+		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+
+  var xhr;
+ window.addEventListener("load", function(){
+	 document.getElementById("parisRadio").addEventListener("change", function(){getXML("TravelCruises.xml")},false);
+	 
+ },false); //end load event listener:
+ 
+ function getXML(fileName){
+	 try{
+		 xhr = new XMLHttpRequest();
+		 xhr.addEventListener("readystatechange", function(){
+			 debugger
+			 if(xhr.readyState==4 && xhr.status==200 && xhr.responseXML ){
+				 switch(fileName){
+					 case "TravelCruises.xml":
+					 cruises();
+					 break;
+					 
+					 case "CarRental.xml":
+					 carRentals();
+					 break;
+					 
+					 case "Casinos.xml":
+					 casinos();
+					 break;
+					 
+				 }//end Switch:
+				 
+			 }//end of If:
+		 },false);
+		 xhr.open("get" , fileName,true);
+		 xhr.send(null);
+		 
+	 }catch(exception){
+		 alert ("XHR failed" + exception.messageText);
+		 
+	 }//end try/catch:
+	 
+ }//end of function getXML:
+ 
+ 
+
+  function cruises(){
+	  debugger
+	  cruises = xhr.responseXML.getElementsByTagName("familyCruise");
+	  var messageString = "<h3>Cruise Details</h3>";
+	  for(i=0; i<cruises.length; i++){
+		  var companyNode= cruises.item(i).getElementsByTagName("company").item(0).nodeName;
+		  var companyValue= cruises.item(i).getElementsByTagName("company").item(0).firstChild.nodeValue;
+		  var linerNode= cruises.item(i).getElementsByTagName("cruiseLiner").item(0).nodeName;
+		  var linerValue= cruises.item(i).getElementsByTagName("cruiseLiner").item(0).firstChild.nodeValue;
+		  messageString += companyNode + " : " + companyValue + "  " + linerNode  + " : " + linerValue + "<br/>";
+		  
+	  }//end for:
+	  document.getElementById("detailsTD").innerHTML= messageString;
+  }//end function cruises:
+  
+  function paris(){
+				parisVacation = xhr.responseXML.getElementsByTagName("vacationPlanParis");
+				var messageString = "<h3>Vacation Plan</h3>";
+					for(i=0; i<parisVacation.length; i++){
+					  var place= parisVacation.item(i).getElementsByTagName("place").item(0).firstChild.nodeValue;
+					  var cost= parisVacation.item(i).getElementsByTagName("cost").item(0).firstChild.nodeValue;
+					  var duration= parisVacation.item(i).getElementsByTagName("duration").item(0).firstChild.nodeValue;
+					  var discription= parisVacation.item(i).getElementsByTagName("discription").item(0).firstChild.nodeValue;
+					  var img= parisVacation.item(i).getElementsByTagName("Image").item(0).firstChild.nodeValue;
+					  messageString += "Plan Name " + place + " Cost: " + cost + " Duration: " + duration  + " Know About Paris : " + discription + img +"<br/>";
+					  
+					}//end for:
+				document.getElementById("parisResult").innerHTML= messageString;
+	 
+  //end function cruises:
+  }
+ 

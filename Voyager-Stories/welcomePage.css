@@ -1,0 +1,61 @@
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+
+.hiTag{font-family:Sue Ellen Francisco;
+   color:#2eb8b8;}
+
+.section-wrap{
+	font-family:DazzlingDivas;
+	color:#C71585;
+	font-size:32px;
+	font-weight:bolder;
+	max-width:500px;
+	margin: 5px auto;
+	display:block;
+	padding: 10px 10px;
+	position:relative;
+}
+
+.actionbtns{
+	text-align: center;
+	margin:20px 0 6px;
+	clear: both;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bolder
+	;
+}
+
+.section{
+	box-sizing: border-bottom;
+	border: 3px solid #e7e7e7;
+	padding:1px;
+	position:relative;
+	margin:0;
+	
+}
+.error-msg{
+	font-family:arial;
+	text-align:left-side;
+	color: #cc0000;
+	font-weight:bold;
+	font-size:16px;
+}
+.errorMsg{
+	font-family:arial;
+	text-align:left-side;
+	color: #cc0000;
+	font-weight:bold;
+	font-size:16px;
+	
+}
+
+.error{
+	border:2px solid #EF0000;
+	padding: 2px;
+}

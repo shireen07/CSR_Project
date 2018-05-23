@@ -1,0 +1,67 @@
+
+body{margin:0;}
+
+#main_flights{position:relative;
+}
+
+#flights_Select{background-color:black;
+                height:400px;
+				width:800px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:7%;
+				left:25%;
+				background-color: rgba(0,0,0,0.42);
+				
+				}
+				
+#labelStyle{
+            color:white;
+			font-family:DazzlingDivas;
+			font-weight:bolder;
+			transform: translate(-50%, 50%);
+			z-index:10;
+			font-size:35px;
+			}
+
+
+td{padding:6px;}
+
+#flights_table{padding:10px; margin:3px;}
+
+#selectPerson, #childSelect, #date, #data1, #data2 {border-radius:5px;
+       width:170px;
+	   height:27px;
+	   font-family:arial;
+	   font-size:16px;
+	   font-weight:normal;
+	   }
+	   
+#data{color:white;
+	  font-family:DazzlingDivas;
+	  font-size:27px;
+	  font-weight:bolder;}
+
+#resultDiv{margin:0;
+           font-family:arial;
+		   font-size:10px;
+		   color:white;
+		   margin-top:50px;}
+
+		   
+
+#searchbutton{border-radius:15px;
+              color:black; 
+			  height:35px; 
+			  width:100px;
+			  margin-top:25px;
+			  }
+
+#BookBtn{border-radius:15px;
+         color:black; 
+		 height:35px; 
+		 width:100px;
+		 margin-left:35%;
+			  }
+*/

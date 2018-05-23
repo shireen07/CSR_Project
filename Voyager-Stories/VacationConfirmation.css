@@ -1,0 +1,47 @@
+table,th,td {
+  border : 0px ;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+.section-wrap{
+	max-width:500px;
+	margin: 20px auto;
+	display:block;
+	padding: 40px 10px;
+	position:relative;
+	color:white;
+}
+.actionbtns{
+	text-align: center;
+	margin:18px 0 6px;
+	clear: both;
+	
+}
+.section{
+	box-sizing: border-bottom;
+	border: 1px solid #e7e7e7;
+	padding:10px;
+	position:relative;
+	margin:0;
+	
+}
+.error-msg{
+	text-align: center;
+	color: #cc0000;
+	font-weight:bold;
+}
+.errorMsg{
+	text-align: center;
+	color: #cc0000;
+	font-weight:bold;
+}
+
+.error{
+	border:2px solid #EF0000;
+	padding: 2px;
+}
+.txt-center{
+	text-align: center;
+}

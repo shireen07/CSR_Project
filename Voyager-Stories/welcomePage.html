@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+       <title>Insert title here</title>
+	  <link rel ="stylesheet" href="welcomePage.css" text="text/css"/>
+	  <script text="text/javascript" src="welcomePage.js"></script>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body background="hotelImg.jpg">
+<div> <a href="Home_LandingPage.html">
+                  <img src="LandingPageLogo.png" href="Home_LandingPage.html"
+                  height="50px" width="90px" style="float:left; margin-left:0; margin-top:40px;"/>
+               </a> </div>
+			   
+			   <div class="section-wrap">
+		<div class="section">
+			<h1 align="center" style="font-family:Sue Ellen Francisco; font-size:50px;
+			    font-weight:bolder;color:#2eb8b8;"> Book a hotel</h1>
+		<div class="errorMsg"> <span id="errorSpan"> </span></div>
+		
+		
+		<div>Going to:&nbsp;&nbsp;&nbsp;<select id="city" onchange="selectCity(this.value);" 
+		style="width:150px;height:30px; border-radius:25px;font-family:arial;font-size:15px;"></select></div>
+		<br>
+		<div>Hotel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    <select id="hotel" onchange="selecthotel(this.value);"
+			style="width:150px;height:30px; border-radius:25px;font-family:arial;font-size:15px;"></select></div><br>
+			
+		<div>Check-in:&nbsp;&nbsp;&nbsp;<input id="checkIn" name="checkIn" type="date" 
+		     style="width:150px;height:30px; border-radius:25px;font-family:arial;font-size:15px;"/><br/><br/>
+
+			 Check-out:&nbsp;&nbsp;<input id="checkOut" name="checkOut" type="date"
+			 style="width:150px;height:30px; border-radius:25px;font-family:arial;font-size:15px;"/>	
+		</div><br>
+		
+		<div>Guests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="guests" name="guests" type="text" length="2" maxlength="1" 
+		placeholder="Input number" style="width:150px;height:30px; border-radius:25px;font-family:arial;font-size:15px;"/>
+		</div><br/>
+		
+		<div class="actionbtns"> 
+		<button class="btn btn-success" type="button" onclick="book()"style="font-size:20px">Book</button>
+		<button class="btn btn-danger" type="button" onclick="clear()"style="font-size:20px">Reset</button></div>
+		</div>
+
+
+	</div>
+
+
+</body>
+</html>
